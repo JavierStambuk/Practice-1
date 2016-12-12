@@ -8,13 +8,15 @@ a{
   text-decoration: none;
 }
 h3{
+  margin: 50px 0 30px 0;
   display: block;
   border-bottom: 1px solid #000000;
   padding-bottom: 5px;
-  color: #63A5C4;
+  color: #B1E001;
 }
 h2{
-  color: #63A5C4;
+  margin: 50px 0 30px 0;
+  color: #B1E001;
 }
 .header h1{
   margin: 0;
@@ -27,9 +29,14 @@ h2{
 .header ul li a{
   color: #ffffff;
 }
+.header img{
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
 .header{
-  background-color: #E24F2F;
-    padding: 30px 0 30px 10px;
+  background-color: #476C5E;
+  padding: 30px 0 30px 0;
 }
 .main-content{
   width: 600px;
@@ -52,11 +59,35 @@ h2{
   text-decoration: none;
   color: #000000;
 }
+.recipes-list ul{
+  padding: 0;
+  margin: 0;
+}
 .recipes-list li{
-  margin: 20px 100px 20px 5px;
+  margin: 25px 100px 25px 0;
   border: 1px solid;
   padding: 10px;
 }
 .recipes-list-tittle{
   border-bottom: 0;
+}
+.photo-sec{
+  margin-top: 50px;
+}
+.photo-sec h3{
+  width: 610px;
+  margin: 0 auto;
+}
+.photo-sec ul{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+.photo-sec img{
+  max-width: 250px;
+}
+.photo-sec li{
+  display: inline;
+  padding-left: 20px;
 }
