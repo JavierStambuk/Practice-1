@@ -1,5 +1,13 @@
 
 body{
+  font-family: Helvetica, Arial, "Times New Roman", sam-serif;
+}
+html, body, h1, h2, h3, p, ol, ul, li, a{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inheret;
 }
 ul{
   list-style: none;
@@ -13,10 +21,27 @@ h3{
   border-bottom: 1px solid #000000;
   padding-bottom: 5px;
   color: #B1E001;
+  font-size: 20px;
+  font-weight: bold;
 }
 h2{
   margin: 50px 0 30px 0;
   color: #B1E001;
+  font-size: 26px;
+  font-weight: bold;
+}
+p{
+  line-height: 25px;
+}
+label, input{
+  display: block;
+}
+label{
+  margin-bottom: 10px;
+}
+input{
+  width: 300px;
+  margin-bottom: 25px;
 }
 .header h1{
   margin: 0;
@@ -41,6 +66,9 @@ h2{
 .main-content{
   width: 600px;
   margin: 0 auto;
+}
+.main-content li{
+  line-height: 25px;
 }
 .home_ingredients{
   list-style: disc;
@@ -70,13 +98,17 @@ h2{
 }
 .recipes-list img{
   float: left;
-  max-width: 200px;
+  max-height: 95px;
+  padding-right: 20px;
 }
 .recipes-list p{
   margin: 10px;
 }
 .recipes-list-tittle{
   border-bottom: 0;
+}
+.recipes-list-tittle{
+  margin: 20px 0 0 0;
 }
 .photo-sec{
   margin-top: 50px;
