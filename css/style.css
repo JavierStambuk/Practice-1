@@ -37,11 +37,28 @@ label, input{
   display: block;
 }
 label{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 input{
   width: 300px;
+  margin-top: 20px;
+}
+input[type=submit]{
+  width: 120px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+textarea{
+  width: 500px;
+  height: 400px;
   margin-bottom: 25px;
+  font-size: 24px;
+}
+label[for=newsletter], input[type=checkbox]{
+  display: inline;
+}
+label[for=newsletter]{
+  margin-top: 10px
 }
 .header h1{
   margin: 0;
@@ -147,4 +164,13 @@ body{
   color: #ffffff;
   padding: 5px 25px  5px 15px;
   text-transform: uppercase;
+}
+.suggest_form{
+  padding: 15px 0 30px 60px;
+}
+.check{
+  margin-top: 10px;
+}
+.suggest_form h2{
+  margin-top: 15px;
 }
